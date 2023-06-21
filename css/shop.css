@@ -1,0 +1,40 @@
+.cart {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: right 0.3s ease-in-out;
+  }
+
+  .cart.open {
+    right: 0;
+    z-index: 1;
+    
+  }
+
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cart-total {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .cart-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .buy-now-btn {
+    margin-top: 20px;
+    text-align: center;
+  }

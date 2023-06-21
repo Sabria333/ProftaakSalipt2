@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  margin: 20px auto;
+  display: flex;
+}
+
+.profile {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.profile h1 {
+  text-align: center;
+}
+
+.profile img {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.orders {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.orders h2 {
+  text-align: center;
+}
+
+.order {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.order:last-child {
+  border-bottom: none;
+}
+
+.order .order-id {
+  font-weight: bold;
+}
+
+.order .order-status {
+  float: right;
+}
